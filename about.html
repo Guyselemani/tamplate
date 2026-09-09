@@ -9,28 +9,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="resume.html">Resume</a>
-        <a href="services.html">Services</a>
-        <a href="Portfolio.html">Portfolio</a>
-        <div class="dropdown">
-          <a href="">Dropdown</a>
-        </div>
-        <a href="">Contact</a>
-      </div>
-      <div class="nav-socials">
-        <a href="#"><i class="fab fa-x-twitter"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </nav>
-    <hr />
+  <script src="asset/site.js" defer></script></head>
+  <body id="top">
+<nav class="navbar" aria-label="Main navigation">
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active" aria-current="page">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="services.html">Services</a>
+    <a href="Portfolio.html">Portfolio</a>
+    <details class="dropdown"><summary>Dropdown</summary><div class="dropdown-menu"><a href="Dropdown.html">Explore</a><a href="about.html#skills">Skills</a><a href="about.html#testimonials">Testimonials</a><a href="resume.html">Resume</a></div></details>
+    <a href="Contact.html">Contact</a>
+  </div>
+  <div class="nav-socials" aria-label="Social platforms"><a href="https://x.com/" aria-label="X"><i class="fab fa-x-twitter"></i></a><a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></div>
+</nav>
+    
+    
     <section class="about" id="about">
       <div class="about-heading">
         <h2>About</h2>
@@ -45,7 +39,7 @@
           <span class="about-label">HELLO THERE</span>
           <h3>
             Hi, I'm Brandon - a calm-minded creative developer crafting serene
-            digital journeyS
+            digital journeys
           </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
@@ -63,6 +57,266 @@
           <img src="asset/image/bradon.webp" alt="Photo de brad" />
         </div>
       </div>
-    </section>
-  </body>
+      <div class="about-actions">
+        <a href="Portfolio.html" class="work-button">
+          View My Work
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        <a href="resume.html" class="resume-button">
+          View Resume
+          <i class="fa-solid fa-download"></i>
+        </a>
+      </div>
+<div class="about-skills"><article class="skill-card"><i class="fa-solid fa-pen-ruler skill-icon"></i><h4>UI / UX</h4><p>Clear interfaces shaped around people.</p></article><article class="skill-card"><i class="fa-solid fa-code skill-icon"></i><h4>Frontend</h4><p>Thoughtful interactions built for the web.</p></article><article class="skill-card"><i class="fa-solid fa-palette skill-icon"></i><h4>Visual Design</h4><p>Consistent colours, typography and composition.</p></article><article class="skill-card"><i class="fa-solid fa-camera skill-icon"></i><h4>Photography</h4><p>A fresh perspective on everyday details.</p></article></div>
+    <!-- PARCOURS -->
+<div class="about-timeline">
+
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+            <span>2018</span>
+            <h4>B.A. in Design</h4>
+            <p>
+                Quisque euismod turpis ut sapien luctus bibendum.
+            </p>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+            <span>2020</span>
+            <h4>Freelance Start</h4>
+            <p>
+                Mauris non arcu non urna convallis vulputate.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+            <span>2022</span>
+            <h4>Joined Creative Studio</h4>
+            <p>
+                Nunc sed nibh et libero fermentum posuere.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+            <span>2024</span>
+            <h4>Lead Frontend</h4>
+            <p>
+                Proin commodo massa sit amet urna pretium.
+            </p>
+        </div>
+    </div>
+  </div>
+<div class="about-quote">
+
+    <p>
+        "Building clean and meaningful experiences through
+        <br>
+        thoughtful code and quiet design."
+    </p>
+
+</div>
+<div class="about-interests">
+
+    <div class="interest">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <span>Minimalism</span>
+    </div>
+
+    <div class="interest">
+        <i class="fa-solid fa-headphones"></i>
+        <span>Lo-fi Beats</span>
+    </div>
+
+    <div class="interest">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>City Walks</span>
+    </div>
+
+    <div class="interest">
+        <i class="fa-solid fa-paintbrush"></i>
+        <span>Sketching</span>
+    </div>
+
+</div>
+</section>
+<section class="skills" id="skills">
+
+    <!-- TITRE -->
+    <div class="skills-header">
+
+        <h2>Skills</h2>
+
+        <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit. Sed ut perspiciatis
+            <br>
+            unde omnis iste natus error sit voluptatem accusantium doloremque
+            laudantium totam rem aperiam
+        </p>
+
+    </div>
+
+
+    <!-- CARTES -->
+    <div class="skills-container">
+
+        <!-- HTML -->
+        <div class="skill-box">
+
+            <h3>HTML</h3>
+
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+            </p>
+
+            <div class="skill-progress">
+
+                <span>90%</span>
+
+                <div class="progress-bar">
+                    <div class="progress html-progress"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CSS -->
+        <div class="skill-box">
+
+            <h3>CSS</h3>
+
+            <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+            </p>
+
+            <div class="skill-progress">
+
+                <span>90%</span>
+
+                <div class="progress-bar">
+                    <div class="progress css-progress"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- JAVASCRIPT -->
+        <div class="skill-box">
+
+            <h3>JavaScript</h3>
+
+            <p>
+                Neque porro quisquam est qui dolorem ipsum quia dolor.
+            </p>
+
+            <div class="skill-progress">
+
+                <span>80%</span>
+
+                <div class="progress-bar">
+                    <div class="progress javascript-progress"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PHOTOSHOP -->
+        <div class="skill-box">
+
+            <h3>Photoshop</h3>
+
+            <p>
+                Quis autem vel eum iure reprehenderit qui in ea voluptate.
+            </p>
+
+            <div class="skill-progress">
+
+                <span>55%</span>
+
+                <div class="progress-bar">
+                    <div class="progress photoshop-progress"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<section class="stats">
+
+    <div class="stats-container">
+
+        <!-- AVATARS -->
+        <div class="stats-avatars">
+
+            <img src="asset/image/imge1.webp" alt="Person 1">
+            <img src="asset/image/image2.webp" alt="Person 2">
+            <img src="asset/image/image3.webp" alt="Person 3">
+            <img src="asset/image/image4.webp" alt="Person 4">
+
+        </div>
+
+
+        <!-- STAT 1 -->
+        <div class="stat-box">
+
+            <h3>185<span>+</span></h3>
+
+            <p>
+                Nemo enim ipsam
+            </p>
+
+        </div>
+
+
+        <!-- STAT 2 -->
+        <div class="stat-box">
+
+            <h3>32K</h3>
+
+            <p>
+                Voluptatem sequi
+            </p>
+
+        </div>
+
+
+        <!-- STAT 3 -->
+        <div class="stat-box">
+
+            <h3>128<span>+</span></h3>
+
+            <p>
+                Dolor sit consectetur
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+  <section class="testimonials" id="testimonials"><div class="page-heading"><h2>Testimonials</h2><p>Sample feedback for this portfolio template.</p></div><div class="testimonial-grid"><article class="testimonial-card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>A clear creative direction and a thoughtful approach from the first sketch to the final details.</blockquote><div class="testimonial-person"><img src="asset/image/imge1.webp" alt=""><div><h3>Alex Morgan</h3><p>Creative director</p></div></div></article><article class="testimonial-card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>The interface feels calm and intuitive. Every detail supports the overall experience.</blockquote><div class="testimonial-person"><img src="asset/image/image2.webp" alt=""><div><h3>Taylor Lee</h3><p>Designer</p></div></div></article><article class="testimonial-card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>An organised process, helpful communication and a polished result.</blockquote><div class="testimonial-person"><img src="asset/image/image3.webp" alt=""><div><h3>Jordan Ellis</h3><p>Project manager</p></div></div></article></div></section>
+<footer class="site-footer"><p>© 2026 <strong>Brandon Johnson</strong>. All rights reserved.</p><p>Design inspired by <a href="https://bootstrapmade.com/demo/FolioOne/">FolioOne · BootstrapMade</a></p><a href="#top">Back to top ↑</a></footer>
+</body>
 </html>

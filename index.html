@@ -9,28 +9,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="nav-links">
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="resume.html">Resume</a>
-        <a href="services.html">Services</a>
-        <a href="Portfolio.html">Portfolio</a>
-        <div class="dropdown">
-          <a href="">Dropdown</a>
-        </div>
-        <a href="">Contact</a>
-      </div>
-      <div class="nav-socials">
-        <a href="#"><i class="fab fa-x-twitter"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </nav>
-    <hr />
+  <script src="asset/site.js" defer></script></head>
+  <body id="top">
+<nav class="navbar" aria-label="Main navigation">
+  <div class="nav-links">
+    <a href="index.html" class="active" aria-current="page">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="services.html">Services</a>
+    <a href="Portfolio.html">Portfolio</a>
+    <details class="dropdown"><summary>Dropdown</summary><div class="dropdown-menu"><a href="Dropdown.html">Explore</a><a href="about.html#skills">Skills</a><a href="about.html#testimonials">Testimonials</a><a href="resume.html">Resume</a></div></details>
+    <a href="Contact.html">Contact</a>
+  </div>
+  <div class="nav-socials" aria-label="Social platforms"><a href="https://x.com/" aria-label="X"><i class="fab fa-x-twitter"></i></a><a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></div>
+</nav>
+    
+    
     <main class="hero">
       <section class="hero-content">
         <h1>hello, I'm Brandon <span>Johnson</span></h1>
@@ -42,17 +36,17 @@
           nesciunt quidem unde voluptatibus mollitia.
         </p>
         <div class="hero-buttons">
-          <a href="#" class="btn btn-primary"> View My Work </a>
-          <a href="#" class="btn btn-outline"> Get In Touch </a>
+          <a href="Portfolio.html" class="btn btn-primary"> View My Work </a>
+          <a href="Contact.html" class="btn btn-outline"> Get In Touch </a>
         </div>
         <div class="social-links">
-          <a href="#" aria-label="Twitter">
+          <a href="https://x.com/" aria-label="Twitter">
             <i class="fa-brands fa-twitter"></i>
           </a>
-          <a href="#" aria-label="GitHub">
+          <a href="https://github.com/" aria-label="GitHub">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="#" aria-label="Dribbble">
+          <a href="https://dribbble.com/" aria-label="Dribbble">
             <i class="fa-brands fa-dribbble"></i>
           </a>
         </div>
@@ -70,5 +64,6 @@
         </div>
       </section>
     </main>
-  </body>
+  <footer class="site-footer"><p>© 2026 <strong>Brandon Johnson</strong>. All rights reserved.</p><p>Design inspired by <a href="https://bootstrapmade.com/demo/FolioOne/">FolioOne · BootstrapMade</a></p><a href="#top">Back to top ↑</a></footer>
+</body>
 </html>
